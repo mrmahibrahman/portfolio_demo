@@ -1,0 +1,192 @@
+nav {
+    font-family: Helvetica;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    padding: 0px;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+
+#big_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#small_div {
+    background-image: url(https://i1.wp.com/californiacollegiate.org/wp-content/uploads/2019/01/page-header-blog.jpg?fit=1500%2C500&ssl=1);
+    height: 500px;
+   
+   
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.items a{
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.items:hover {
+    border-left: solid 3px #e47474;
+    border-right: solid 3px #e47474;
+   
+}
+
+#logo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 10px black;
+    height: 15%;
+    width: 60%;
+    background-color: #e47474;
+    display: flex;
+    justify-content: center;
+}
+
+#text1 {
+    display: flex;
+    justify-content: center;
+    float:inline-start;
+}
+
+#first_div{
+
+    height: 100%;
+    width: 66%;
+  
+    background-color: white;
+    color: black;
+    
+}
+
+#main_div{
+    display: flex; 
+   align-items: column; 
+}
+
+.sub_text1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-right: solid 2px rgb(179, 78, 78);
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.sub_text1 p{
+   font-size: 15px;
+   display: flex;
+    margin-left: 5px;
+}
+
+
+#first_image{
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 300px;
+    border: solid 5px black;
+}
+
+#second_div{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgb(225, 112, 112);
+     padding-top: 50px;
+     padding-bottom: 50px;
+    color: black;
+}
+
+#text2{
+    display: flex;
+    justify-content: center;
+}
+
+#third_div{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: white;
+    color: black;    
+}
+
+#text3 {
+    display: flex;
+    justify-content: center;
+}
+
+#fourth_div{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color:#e47474;
+    color: black;   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#text4 {
+    display: flex;
+    justify-content: center;
+}
+
+#fifth_div{
+    background-color: rgb(9, 9, 9);
+    color: rgb(221, 183, 16);
+    padding: 100px;
+}
+
+#text5 {
+    display: flex;
+    justify-content: center;
+}
+
+#paragrah5{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+@media(max-width: 1030px) {
+    nav {
+        font-size: 20px;
+    }
+
+    #small_div {
+        font-size: 17px;
+        height: 400px;
+    }
+
+    #first_div {
+        width: 90%;
+    }
+
+    #first_image{
+        margin-top: 200px;
+        margin-left: 50px;
+        height: 300px;
+        border: solid 5px black;
+    }
+}
+
+
+
+
+
+
